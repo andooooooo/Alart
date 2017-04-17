@@ -1,4 +1,7 @@
 # ABOUT
-Linuxのみ対応。acpiコマンドの出力から電源接続状態を判断する。<br/>
-切断されていればPygameのライブラリを用いて音を鳴らす。復帰時にも確認用の音声が鳴るようにした。<br/>
-再生用の音声として"worn.wav","arigato.wav"が必要
+Sounding alarm if power adapter was detached.
+suiting for Linux.
+# METHOD
+1. take status of power from acpi command output<br/>
+2. Sound alarm using Pygame libraly if power adapter was detached. Also sound alarm when reconnected.<br/>
+※This program needs sound files as "worn.wav" and "arigato.wav".
