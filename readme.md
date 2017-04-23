@@ -1,7 +1,7 @@
 # ABOUT
-Sounding alarm if power adapter was detached.<br/>
+ Ring an alarm when the power cord is unplugged from the PC.<br/>
 Suiting for Linux.
 # METHOD
-1. Take status of power from acpi command output<br/>
-2. Sound alarm using Pygame libraly if power adapter was detached. Also sound alarm when reconnected.<br/>
+1. Getting status of power supply from an output of acpi command.<br/>
+2. Ringing alarm using Pygame libraly when the power cord is unplugged. Ringing alarm even when reconnected.<br/>
 ※This program needs sound files as "worn.wav" and "arigato.wav".
